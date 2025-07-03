@@ -1,0 +1,24 @@
+{
+  "name": "facebook-scraper",
+  "version": "1.0.0",
+  "description": "A scraper for public Facebook data.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "puppeteer",
+    "scraper",
+    "facebook"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.0.0",
+    "puppeteer": "^24.11.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
